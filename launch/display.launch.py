@@ -18,7 +18,7 @@ def generate_launch_description():
     pkg_share_dir = get_package_share_directory('erasers_g1_description')
     default_rviz_config_path = os.path.join(pkg_share_dir, 'rviz', 'g1.rviz')
     default_urdf_dir_prefix = os.path.join(pkg_share_dir, 'urdf') + os.sep
-    default_robot_model = 'g1_23dof'
+    default_robot_model = 'erasers_g1'
 
 
     # launch configurations
@@ -30,7 +30,8 @@ def generate_launch_description():
     declare_robot_model = DeclareLaunchArgument(
         'robot_model',
         default_value=default_robot_model,
-        description='Unitree G1 model variant to display (g1_23dof or g1_29dof).'
+        choices=['g1_23dof', 'g1_29dof', 'erasers_g1'],
+        description='Unitree G1 model variant to display.'
     )
     declare_use_rviz = DeclareLaunchArgument(
         'use_rviz',
