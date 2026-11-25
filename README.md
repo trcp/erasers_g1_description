@@ -4,7 +4,7 @@
 
 |**ROS 2**|**MuJoCo**|
 |:---:|:---:|
-|<img src="https://i.imgur.com/bjOdG4P.png"/>|<img src="https://i.imgur.com/FgVuLP3.png"/>|
+|<img src="https://i.imgur.com/bjOdG4P.png"/>|<img src="https://i.imgur.com/diU8Yxh.png"/>|
 
 A repository providing robot models (URDF and MJCF) for the Unitree G1 humanoid robot.
 

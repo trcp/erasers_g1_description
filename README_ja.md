@@ -4,7 +4,7 @@
 
 |**ROS 2**|**MuJoCo**|
 |:---:|:---:|
-|<img src="https://i.imgur.com/bjOdG4P.png"/>|<img src="https://i.imgur.com/FgVuLP3.png"/>|
+|<img src="https://i.imgur.com/bjOdG4P.png"/>|<img src="https://i.imgur.com/diU8Yxh.png"/>|
 
 Unitree G1 のロボットモデル（URDF，MJCF）を提供するリポジトリです．
 
